@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const MyHomePage(title: 'Toko Online Sederhana'),
+      home: const MyHomePage(title: 'Cartify'),
     );
   }
 }
@@ -39,7 +39,7 @@ class MyHomePage extends StatelessWidget {
             child: AspectRatio(
               aspectRatio: 4 / 3,
               child: Image.network(
-                'https://images.pexels.com/photos/325153/pexels-photo-325153.jpeg',
+                'https://i0.wp.com/inews.zoombangla.com/wp-content/uploads/2026/03/4-1-10.jpg',
                 fit: BoxFit.cover,
               ),
             ),
@@ -50,20 +50,22 @@ class MyHomePage extends StatelessWidget {
             mainAxisSize: MainAxisSize.min,
             children: [
               const Text(
-                'Wireless Headphone ZX-01',
+                'Honor Robot Phone',
                 style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold),
               ),
               const SizedBox(height: 8),
               Text(
-                'Headphone nirkabel dengan kualitas suara jernih, '
-                'baterai tahan lama hingga 24 jam, dan desain nyaman '
-                'untuk digunakan seharian. Cocok untuk belajar, bekerja, '
-                'atau sekadar menikmati musik.',
+                'Smartphone canggih dengan performa cepat, '
+                'baterai tahan lama hingga seharian, '
+                'dan desain elegan yang nyaman digenggam. '
+                'Dilengkapi teknologi pintar untuk mendukung '
+                'belajar, bekerja, maupun hiburan, menjadikan '
+                'aktivitas harian lebih praktis dan menyenangkan. ',
                 style: TextStyle(fontSize: 14, color: Colors.grey.shade700),
               ),
               const SizedBox(height: 16),
               const Text(
-                'Rp 599.000',
+                'Rp 50.000.000',
                 style: TextStyle(
                   fontSize: 20,
                   fontWeight: FontWeight.bold,
@@ -105,7 +107,7 @@ class MyHomePage extends StatelessWidget {
                   crossAxisAlignment: CrossAxisAlignment.stretch,
                   children: [
                     const Text(
-                      'Selamat Datang di Mini E-Commerce',
+                      'Selamat Datang di Cartify!',
                       textAlign: TextAlign.center,
                       style: TextStyle(
                         fontSize: 24,
@@ -114,13 +116,11 @@ class MyHomePage extends StatelessWidget {
                     ),
                     const SizedBox(height: 8),
                     Text(
-                      'Berikut adalah contoh tampilan produk dengan nama, gambar, '
-                      'deskripsi, dan harga. Layout ini dibuat responsif untuk '
-                      'mobile dan web.',
+                      'Temukan produk terbaik untuk kebutuhanmu.',
                       textAlign: TextAlign.center,
                       style: TextStyle(
-                        fontSize: 14,
-                        color: Colors.grey.shade700,
+                        fontSize: 16,
+                        color: Colors.grey.shade600,
                       ),
                     ),
                     const SizedBox(height: 24),
